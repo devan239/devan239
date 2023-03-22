@@ -1,0 +1,129 @@
+ 
+.h {
+    text-align: center;
+}
+
+.home {
+    height: 100vh;
+    width: 100%;
+    margin-top: -20px;
+    background: url('https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    
+}
+
+.searchbox {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap: 5px;
+    /* left: 38%;
+    top: 20%; */
+    position: relative;
+    top: 10%;
+    background: white;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 20px; 
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* .input-f {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border: 3px solid currentColor;
+    padding: 10px;
+    color: black;
+    background: transparent;
+    border-radius: 10px;
+} */
+
+.input-field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+}
+/* .searchbox {
+    margin-top: 105px;
+    display: flex;
+} */
+
+.searchbox input {
+   border: none;
+}
+
+.searchIcon {
+    height:30px;
+    width: 30px;
+    background-color: white;
+    display: grid;
+    place-items: center;
+}
+
+input:focus{
+    outline: none;
+}
+
+.searchIcon svg {
+    font-size: 35px;
+}
+
+.dataResult {
+    margin-top: 5px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    overflow-y: auto;
+    cursor: pointer;
+}
+
+.dataResult::-webkit-scrollbar {
+    display: none;
+}
+
+.dataResult .dataItem {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.dataItem p {
+    margin-left: 10px;
+}
+.dataItem {
+    text-decoration: none;
+}
+
+.dataItem :hover {
+    background-color: lightgrey;
+}
+
+#clearBtn {
+    cursor: pointer;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    top: 10%;
+    overflow: hidden;
+    gap: 10px;
+    column-gap: 10px;
+    
+}
+

@@ -1,0 +1,123 @@
+.image{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.place {
+    height: 90vh;
+    width: 100%;
+    margin-top: 60px;
+    /* top: 20%; */
+}
+
+.place-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 290px;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+    overflow: hidden; 
+}
+
+.address{
+    width: 50%;
+    border: 2px solid black;
+    padding: 10px;
+    margin: auto;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.place-name {
+    text-transform: uppercase;
+    margin: 2px;
+    text-align:center;
+    width: 40%;
+    margin: auto;
+}
+.right {
+    width: 35%;
+    color: black;
+    text-align: start;
+    border: 2px solid black;
+}
+
+.description {
+    font-size: 16px;
+    text-align:center;
+    padding: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+.chat-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 8px;
+
+
+}
+
+.chat {
+    flex-grow: 2;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.blogs {
+    flex-grow: 1;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 3px;
+    
+}
+
+.details {
+    width: 50%;
+    height: 100%;
+    text-align:center;
+    color: black;
+    margin-top: 0;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.showBlog {
+    width: 50%;
+    height: 100%;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    scroll-behavior: smooth;
+
+}

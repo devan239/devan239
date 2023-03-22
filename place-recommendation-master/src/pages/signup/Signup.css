@@ -1,0 +1,11 @@
+.signup-form {
+    max-width: 360px;
+    max-height: 500px;
+    margin: auto;
+    padding: 40px;
+    border: 1px solid #ddd;
+    background: #fff;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.05);
+
+}
+
